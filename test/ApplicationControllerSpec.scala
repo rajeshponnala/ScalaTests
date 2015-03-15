@@ -20,7 +20,7 @@ class ApplicationControllerSpec extends PlaySpec with Results {
       }
   }
 
-  "this Action" should { "return not found" in {
+  "this Action" should { "return badresult" in {
     val res = Application.badResult.apply(FakeRequest())
      status(res) mustEqual BAD_REQUEST
   }
