@@ -15,3 +15,11 @@ server.pid
 *.eml
 /dist/
 .cache
+.ensime
+.ensime_cache/
+LICENSE
+README
+activator
+activator-launch-1.2.10.jar
+activator.bat
+
